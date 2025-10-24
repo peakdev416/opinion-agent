@@ -3,10 +3,10 @@ import uvicorn
 from fastapi import FastAPI
 from dotenv import load_dotenv
 
+load_dotenv()
 from take_forge.api import v1
 from take_forge.api.v1 import lifespan
 
-load_dotenv()
 
 
 def get_application():

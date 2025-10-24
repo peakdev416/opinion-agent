@@ -1,1 +1,2 @@
 from .opinion_agent import OpinionAgent
+from .metadata_utils import normalize_metadata, flatten_metadata_for_chroma
